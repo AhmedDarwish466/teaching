@@ -1,0 +1,234 @@
+{
+  "instructor": {
+    "name": "Dr. Ahmed Darwish",
+    "title": "Lecturer, Faculty of Engineering, Assiut University",
+    "phd": "Ph.D., Cardiovascular Fluid Dynamics — Laboratory of Cardiovascular Fluid Dynamics, Concordia University, Montreal",
+    "research": "Experimental and computational cardiovascular fluid dynamics: mock circulatory loops, particle image velocimetry (PIV), CFD of pulsatile blood flow, and transport barriers in cardiovascular flows."
+  },
+  "courses": [
+    {
+      "slug": "advanced-fluid-mechanics",
+      "code": "0202619",
+      "title": "Advanced Fluid Mechanics",
+      "title_ar": "ميكانيكا الموائع المتقدمة",
+      "audience": "Postgraduate / senior Mechanical Power students",
+      "group": "Fluid Mechanics & Thermal Sciences",
+      "color": "#1d5fd1",
+      "summary": "Viscous flow, exact solutions of the Navier–Stokes equations, laminar and turbulent boundary layers, and turbulence modelling. Every symbol and operation is explained step by step.",
+      "prerequisite": "Fluid Mechanics (2)",
+      "folder": "11bUhw3XSJBJresugUp5Uxp3jfeWIfsGL",
+      "lectures": [
+        ["Kinematics and Continuity", "1ew68DriTiIOuog0fnSzXeYc1TGkYNE-W"],
+        ["Stresses and the Momentum Equation", "14wwGynDusBKqBQb92f4I6i-mfaVGS1e6"],
+        ["The Navier–Stokes Equations", "1sLDNKnH5BpZpvCQtr0Wip2yMdIEXwuG_"],
+        ["Couette and Poiseuille Flows", "16yXmWCnf-JcH9q3dFCY0iLqK0M65hTTX"],
+        ["Pipe Flow and Rotating Cylinders", "1oAgcf5UUbiU3sC-Rzp4ZI3-WsSZ0YrzI"],
+        ["Boundary Layers", "1IZ4vcUkQIcGLSa0U3z1fUcrT63YHScTL"],
+        ["Laminar Boundary Layers on Bodies of Revolution", "1vy6Q6HlUAB-jludCgNgxzDQm1ODmvFXj"],
+        ["Turbulent Boundary Layers on Bodies of Revolution", "1cnmg7hH6pHUTYI-PvD6zrrqTwQHMYBT1"],
+        ["Turbulence Fundamentals", "18GDTbffMKe_Qzs-ahc0ltrKVX7eGOZ9f"],
+        ["Reynolds Stresses", "1bZ6YWZshpPLJV1koSZtJ6Ax5LnKxWEcg"],
+        ["Mixing Length and the Laws of the Wall", "1piTNHMum9a11zHGkVBOFpydJX9JW4b6g"],
+        ["Turbulent Pipe Flow", "1P9Ga17GBz3F5vKu3Y5C9WY8Yhf3RL7bC"]
+      ],
+      "resources": [
+        ["Problem Sheet (PDF)", "file", "1IWSfyA3PlT9DGsSz9E7iqzdOum_m0q5X", "sheet"],
+        ["CFD Problem 1 — Developing Pipe Flow", "file", "1MZ0R9vrXBjq52ejvUZn-UW-We0mTLWNS", "cfd"],
+        ["CFD Problem 2 — Laminar Boundary Layer", "file", "1CsQqxKWqtESgtFBFrU7YpN6ANkUY7o42", "cfd"],
+        ["CFD Problem 3 — Taylor–Couette Flow", "file", "1C6cXhDKFSXGO2Jwf-gHMmgPRPCBlCHUk", "cfd"],
+        ["CFD Problem 4 — Turbulent Pipe Flow", "file", "1yET71V_ahHrEBbxQkrdZu1G0imZaWlc1", "cfd"],
+        ["Recorded lectures", "folder", "1GIkg6swN05qIl0M_qM_f2NYH1Y8rhRfA", "video"]
+      ],
+      "notes": "CFD problems can be solved in ANSYS Fluent or OpenFOAM."
+    },
+    {
+      "slug": "fluid-mechanics-2",
+      "code": "MEP 332",
+      "title": "Fluid Mechanics (2)",
+      "audience": "Mechanical Power Engineering program (bylaw 2021)",
+      "group": "Fluid Mechanics & Thermal Sciences",
+      "color": "#0f8a83",
+      "summary": "Internal flow and piping networks, differential analysis of fluid flow, approximate solutions (creeping, inviscid, potential and boundary-layer flow), external flow, drag and lift, and an introduction to CFD.",
+      "textbook": "Çengel & Cimbala, Fluid Mechanics: Fundamentals and Applications, 4th ed. (Chs. 8, 9, 10, 11, 15)",
+      "folder": "1pTqc4CGsji5XkTVxivJM9dM7pjLatt2k",
+      "lectures": [
+        ["Internal Flow I — Laminar Flow in Pipes (Ch. 8)", "164yTr8mn32u90hiYG-NftMV5JOCifko1"],
+        ["Internal Flow II — Turbulent Flow and Minor Losses (Ch. 8)", "1-LOqcbSBTxMQfmH4i2fBLeyofdmhv1l3"],
+        ["Internal Flow III — Networks, Pumps and Flow Measurement (Ch. 8)", "11rSUa30qbTwpdRnxEjq0xZXpVEbjvBga"],
+        ["Continuity and the Stream Function (Ch. 9)", "1IebTeC7eGoVK2kc-Wdli-p37UIic3wEV"],
+        ["Navier–Stokes Equations and Exact Solutions (Ch. 9)", "1eofWWFPHYJ4sDpTf8j-CLMkE9HWAMNqc"],
+        ["Creeping, Inviscid and Potential Flow (Ch. 10)", "1LQdis3KDBfUS7fc0_ilN-d1lCPW3rBxb"],
+        ["The Boundary Layer Approximation (Ch. 10)", "11y3wvm7MWotA6gsLPEb_jkCkSY48voY6"],
+        ["Drag and Flat Plates (Ch. 11)", "1BWfr0mZupKYZ6uO4AIkDwFNBsjYUMz5Q"],
+        ["Cylinders, Spheres and Lift (Ch. 11)", "1dNmnAvYrSJYz-P-dG929bUjP0Wr3nOc8"],
+        ["CFD Fundamentals (Ch. 15)", "1akb9zSbS5jf2YPQjhy_Mn4JCRxuqpk3W"],
+        ["Turbulent, Thermal and Compressible CFD (Ch. 15)", "18jFrtq-8-UQTXXD3mqmRH6SbXr33C1YQ"]
+      ],
+      "resources": [
+        ["CFD Course Projects (choose one)", "doc", "1JVIT53ASZU8SVDMm3cBWyvVwOURk6QTXZs6_9cG2v4A", "cfd"],
+        ["Projects folder", "folder", "1S5wD5MhSRxt9ZbAu6pSpmdbehWHbHFOe", "folder"]
+      ],
+      "notes": "Each lecture ends with up to 10 assigned end-of-chapter problems from the textbook."
+    },
+    {
+      "slug": "turbomachinery",
+      "code": "Turbomachines II",
+      "title": "Gas Dynamics and Turbomachinery",
+      "audience": "Mechanical Power Engineering program",
+      "group": "Fluid Mechanics & Thermal Sciences",
+      "color": "#c2410c",
+      "summary": "Compressible flow (stagnation properties, nozzles, shocks, Rayleigh and Fanno flow), cascade theory, fans and compressors, and steam and gas turbines.",
+      "textbook": "Çengel & Cimbala, Fluid Mechanics, Ch. 12 (gas dynamics lectures)",
+      "folder": "1lAb5ae8KBg81gU6E0Tf4EEAY3RDOevcW",
+      "lectures": [
+        ["Gas Dynamics I — Stagnation Properties and Isentropic Flow", "1hraV6iuCI7iIOGBV63qt60sG8BeDoVoj"],
+        ["Gas Dynamics II — Isentropic Nozzle Flow", "1urGtK-Cr3pGGyQl5bFHtUGVVh_EHvVYg"],
+        ["Gas Dynamics III — Shocks, Rayleigh and Fanno Flow", "10rOVvbBN4fV6IktsAqwY6eGyWt8Xs7wz"],
+        ["Cascade Theory I", "1qJSI2PzBoEj0nZbNBUZvxPRtmJ5yNJsy"],
+        ["Cascade Theory II", "1zVSIxWqPqr2Q7wdidKwGq6V-sJE5l4UV"],
+        ["Cascade Theory III", "1yKxZApLfcn7PrqJ_jsAJSfQYrL_MeSBD"],
+        ["Fans and Centrifugal Compressors", "1tvswMmeBD86zsBmOd7cSq-WU7AFDzaob"],
+        ["Axial Compressors", "15zgLDoywcetC2ogDVhofuWQaO_Mj2DwG"],
+        ["Steam Turbines I", "1wyVp36pTEtl8A2q7sKAurFQams6ZqvA9"],
+        ["Steam Turbines II", "1UkBLAn-_pC1r08zNi8sbH-UmDwRJMSqS"],
+        ["Gas Turbines", "1XVWF-xigNbzXnJoUx4LxwADEcrtQtgge"]
+      ],
+      "resources": [
+        ["Individual 2D CFD course projects", "folder", "1utrgMQhxB1FA7pS3-DC6L-2g_092UHCO", "cfd"]
+      ],
+      "notes": "Each student completes one individual 2D CFD project in ANSYS Fluent or OpenFOAM, graded individually."
+    },
+    {
+      "slug": "biofluid-mechanics-heat-transfer",
+      "code": "BME",
+      "title": "Biofluid Mechanics and Heat Transfer",
+      "audience": "Biomedical Engineering students (no prior fluids or heat transfer background)",
+      "group": "Biomedical Engineering",
+      "color": "#be185d",
+      "summary": "Fluid properties and statics, conservation laws, viscous flow in tubes, blood rheology and arterial flow, microcirculation and mass transport, then conduction, convection, radiation and bioheat transfer.",
+      "textbook": "Rubenstein, Yin & Frame, Biofluid Mechanics; Datta, Biological and Bioenvironmental Heat and Mass Transfer; Young et al., A Brief Introduction to Fluid Mechanics",
+      "folder": "1kSXKr_XnlBc25tpS2lHw8RARSZuG5avv",
+      "lectures": [
+        ["Introduction to Biofluid Mechanics", "1KNITiuPTNNOtZZXZ1esMAFiBpnMiWdEh"],
+        ["Viscosity and Types of Flow", "1ImQBiu7C-egsWY9a5syXTC5m-PKu22oI"],
+        ["Fluid Statics", "18FNjhVPWOAw8Y0tgyiyefa5KXjqMRsXi"],
+        ["Kinematics and Conservation of Mass", "1uRW-KaWrPS7uEAMgsZ6fihQRVoaBuYAR"],
+        ["Momentum and the Bernoulli Equation", "19ObjntSGH8ha1-vDX-r8sczwqTI4AjFK"],
+        ["Viscous Flow in Tubes", "1NHFpNWEST5kHW55JCyoo_HOjslbF3UBZ"],
+        ["Blood and Arterial Flow", "1XXb2b9hPhXyaJEYUuVNXSc06LSMLdrgD"],
+        ["Microcirculation and Mass Transport", "18hsy645OpBIL24baa2tlCRRFiX21Fu9W"],
+        ["Introduction to Heat Transfer", "1l128UV5CE5Cd960Nb4MnTAka1gwmHl59"],
+        ["Steady-State Conduction", "13Tb6xVOmib8TU1o9-nH11HsrOIji2497"],
+        ["Convection and Radiation", "1vGwgxFiMN4rVYiOyzrBfy9N_35DieYUN"],
+        ["Transient Heat Transfer and Bioheat", "12COposmBIsVd-NIQ9nbNMCxR00B20uHq"]
+      ],
+      "resources": [
+        ["Problem Sheets", "doc", "16finuUOvP9TvExYLrwN6SAhp6tymbVaUqwBy9pWv6TY", "sheet"]
+      ]
+    },
+    {
+      "slug": "eng-318-engineering-analysis",
+      "code": "ENG 318",
+      "title": "Engineering Analysis",
+      "audience": "Mechatronics and Robotics Program",
+      "group": "Mathematics & Numerical Methods",
+      "color": "#6d28d9",
+      "summary": "Numerical and analytical methods for engineers: roots of equations, systems of linear and non-linear equations, ordinary differential equations, series solutions, Fourier analysis and numerical PDEs. Every method comes with an example MATLAB script.",
+      "textbook": "Zill, Advanced Engineering Mathematics (2016); Chapra & Canale, Numerical Methods for Engineers",
+      "folder": "1GKHOcG3Pcmd1cFRYLe2a2X0FJRshHxy_",
+      "lectures": [
+        ["Roots of Non-linear Equations", "19ActxhjSgV0dQZB-Kie2feDiAW-db5IH"],
+        ["Systems of Linear and Non-linear Equations", "140Cap_6rfpGoH045Kk0l1kgwM-wk7o_t"],
+        ["Introduction to ODEs and Explicit Methods", "1Kb4cq4Srvq0-P2M5LpyE0PrrcIJqBK8d"],
+        ["Lecture 4", "1d8-mpluOS1dPwNyDvZXRVisBClYK-oeT"],
+        ["Lecture 5", "1nNxFZqznLYEVk8gcglFi0_YZCu5psqil"],
+        ["Lecture 6", "1mRTe9_Y7XeseH7oQ_vHrYv8zsHrJ1zeB"],
+        ["Lecture 7", "1tQgmlXzzMm8UOZqE1M6gjlxNsNUhQPJM"]
+      ],
+      "resources": [
+        ["Problem Sheet — Lectures 1–7", "file", "1hXJwjTD0cDr5HwUmPsyFzmbbJ_QwNjZX", "sheet"],
+        ["Assignments folder", "folder", "13ONuYGKH4V-T6LwgrWTu8mBKsANK2eBq", "folder"]
+      ]
+    },
+    {
+      "slug": "basic-mathematics-calculus",
+      "code": "Year 1",
+      "title": "Basic Mathematics and Calculus",
+      "audience": "Technical college, first year (الفرقة الأولى) — Mechanical and Electrical majors",
+      "group": "Mathematics & Numerical Methods",
+      "color": "#15803d",
+      "summary": "Functions and graphs, exponentials and logarithms, a first look at differentiation, trigonometry for engineers, and complex numbers. Simple English with Arabic key terms.",
+      "folder": "1pfw_9kWgo6-v2mF-Y1lH8g8hwH00le0H",
+      "lectures": [
+        ["What Is a Function?", "1ral31PeYOxdKjS8DmMxJE_Pnd48LYFuY"],
+        ["Graphs and Straight Lines", "1fj-Q-gC1fnQxS8x7bq1Dksl2AvmrRV1Y"],
+        ["Exponentials and Logarithms", "13_ftq_zDifDXhs7uTOtkbzg15Z7EhiTm"],
+        ["Introduction to Differentiation", "1kmLEv3Wn6v8o0m6_RsE2E8AhMa6ayQ21"],
+        ["Angles and Right Triangles", "1huQtgILQWUnmHARxfIkwShVRzipjNGwa"],
+        ["Sine and Cosine Graphs", "1mFZh5EWQIQxhi-KFIGZhS1pkoGNQdxb3"],
+        ["Trigonometry in Engineering", "10-g8cqvr5fEDRen2KWVM001Pro6lmylC"],
+        ["Complex Numbers — the Basics", "1Fn1XLPvtE8SU7Q0-zNx0fpLP1nImdTV4"],
+        ["Conjugate, Division and the Argand Diagram", "1XNrBKyspg0y4aMukqOdbG92iM1eepKuS"],
+        ["Polar Form and Review", "1_rBqYXNJZvozR9vOXYKclo2REl4jeJAc"]
+      ],
+      "resources": [
+        ["Problem Sheet — Lecture 1", "doc", "1wHxZeagEthgmsB9tLaaWfHgFflCFXDGRRvzYNzRWHN0", "sheet"]
+      ]
+    },
+    {
+      "slug": "differentiation-integration",
+      "code": "Year 2",
+      "title": "Differentiation and Integration",
+      "audience": "Technical college, second year (الفرقة الثانية) — Mechanical and Electrical majors",
+      "group": "Mathematics & Numerical Methods",
+      "color": "#0369a1",
+      "summary": "Rules of differentiation, derivatives of standard functions, speed and acceleration, maxima and minima, then integration, definite integrals, areas and engineering uses. Simple English with Arabic key terms.",
+      "folder": "1kvkM_iMwePXvxFGIsAF0BQnbrxr3q2gr",
+      "lectures": [
+        ["Introduction to Differentiation", "1nJb_yAlx5kQQg6lq0rTBMHpp0fBQWCfY"],
+        ["Simple Rules of Differentiation", "1tpMzwwsiNxnBkXlP964oDY2hTwe4EslV"],
+        ["Differentiating sin, cos, exp and ln", "1cAIa8dtpkRYZ1ammqUcAaUpsB96N4IQM"],
+        ["Second Derivatives", "1SGy8aNlUrjFTcoCMEfXi6SV0YTbqXUr4"],
+        ["Speed and Acceleration", "1qLXGFE6MQX9ykhHQltgexmVi0EetfPo4"],
+        ["Maximum and Minimum", "1_M5-yjOisVVOj5rifNckA8H2zcYe9Pjm"],
+        ["Introduction to Integration", "1zPcxPzh4YiKENI7Rr8q5OiNbm4KiKi7t"],
+        ["Integrating Standard Functions", "1L6eT-ww94gLx4VLOpeNGfp_U0Pak7qOd"],
+        ["Definite Integrals and Area", "1zA9JqDoY6Lxvd9F1usRniAX61CmutjTA"],
+        ["Engineering Uses of Integration", "1_a-va68IIEggk_v_K6sKxGq79x11FKaX"]
+      ],
+      "resources": [
+        ["Problem Sheet — Lecture 1", "doc", "1pwYvSD-XVWPorRN8Z0O1tH1iPxG3puBW_egJMoL0SDQ", "sheet"]
+      ]
+    },
+    {
+      "slug": "technical-english",
+      "code": "GSATCEN2 · GSATCGR2 · GSATCENG3",
+      "title": "Technical English (English Language 2)",
+      "audience": "Technical college — Mechanical, Electrical and IT majors",
+      "group": "Languages",
+      "color": "#a16207",
+      "summary": "Technical reading texts with exercises, subject vocabulary and English–Arabic translation practice, at three levels for each major. Harder words carry their Arabic meaning in parentheses.",
+      "lectures": [],
+      "resource_groups": [
+        ["All majors", [
+          ["Standard level reading set", "doc", "1D8thKTmRH4ro8WgPPQNygGtnux2SyYohXL9D0KeKQEc", "reading"]
+        ]],
+        ["Mechanical (GSATCEN2)", [
+          ["Level 2 reading set", "doc", "1P8p_Y4VdkcBPdmoFG-xWcBsSd2MtP-DJAF8g-g9pmBo", "reading"],
+          ["Advanced reading set", "doc", "1v0eSNWucviCet_HvusBdgeVYvLU--3feqO9DNccbxuY", "reading"],
+          ["Vocabulary", "doc", "1YnBhpSA2zgfPwh9B0xRTWEQmi6tacRTO7DUlkA4rV8Y", "vocab"]
+        ]],
+        ["Electrical (GSATCGR2)", [
+          ["Level 2 reading set", "doc", "1K_9dgINJgid11-EylGd96QZKRT4km_McriM1Hd0mNLE", "reading"],
+          ["Advanced reading set", "doc", "1GZOqW3MBlLr3mhV9yrAGPmH_nFBTKYZmC0GY-o6xGDw", "reading"],
+          ["Vocabulary", "doc", "1hujCPhtRI8_OdPXZ2viY4F_VTPIpxY-d_Q3OJsrvbCo", "vocab"]
+        ]],
+        ["Information Technology (GSATCENG3)", [
+          ["Level 2 reading set", "doc", "1rHl7acJ6vLMQVuEUuw3JnrgY7MKAXZ9YCvO0f1cIeqg", "reading"],
+          ["Advanced reading set", "doc", "1_tf2a1MFdJs2wMl1_-KZtdxlDd0bfXeEBCTETYuUFTs", "reading"],
+          ["Vocabulary", "doc", "1jECdOO2GDHHflL1SJhsoHew1NsOrfi30f1UJ2VF1xkw", "vocab"]
+        ]]
+      ]
+    }
+  ]
+}
